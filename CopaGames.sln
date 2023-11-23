@@ -8,6 +8,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopaGames.IntegrationTests", "CopaGames.IntegrationTests\CopaGames.IntegrationTests.csproj", "{B1537DCC-D771-407D-92A0-B9EBBE51FF6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLUTION_ITENS", "SOLUTION_ITENS", "{BAA8D26D-2488-42D7-8959-6C70F482D650}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
