@@ -34,7 +34,7 @@ public class CupBuilder(ERound round)
             }
         }
 
-        throw new Exception("Invalid number of teams for the cup. Should match the provided ERound enumeration");
+        throw new InvalidOperationException("Invalid number of teams for the cup. Should match the provided ERound enumeration");
     }
 
     private bool IsValid()
@@ -42,4 +42,3 @@ public class CupBuilder(ERound round)
         return _selectedTeams.Count != 0;
     }
 }
-
